@@ -1,0 +1,450 @@
+/*Desarrollador Bryan Interian*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+header {/*Estilo header*/
+	/*background-color: purple;
+	width: 1280px;
+	height: 1900px;
+	border-radius: 3%;*/
+	text-align: center;
+	font-family: comic sans ms;
+    margin: auto;
+ }
+
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: right;
+}
+
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color:purple;
+	text-decoration: none;
+	font-family: forte;
+	font-size: 25px;
+}
+/*Efecto menu*/
+header nav ul li a:hover{
+	background:indianred;
+	border-radius: 12%;
+		/*background:rgb(0,255,0,.5);*/
+	color:orange;
+	box-shadow: 0px 10px 20px rgba(255,255,255,1);
+}
+
+header, .main, footer{
+
+	width: 600%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.main .articles{
+	width:68.5% ;
+	float: left;
+	margin-right: 1.5%
+
+}
+
+.main .articles article{
+	background:black;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 30%;
+	background:black;
+	float: left;
+	padding: 50px;
+	box-sizing: border-box;
+
+}
+
+footer{
+	background:#000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.tex{
+	text-align: justify;
+	color:white ;
+font-size: 20px;
+}
+
+.image{
+	width: 320px;
+	height: 180px;
+	border-radius:13%;
+    float: left;
+    margin-left :10px;
+    margin-bottom: 20px;
+}
+.im{
+	width: 250px;
+	height:200px;
+	border-radius: 11%;
+	margin-left: 10px;
+
+
+
+}
+.enca{
+	 margin-bottom: 20px;
+	 font-size: 60px;
+	text-align: center;
+	font-family:italic;
+	color: white;
+   text-shadow: 1px 2px red;
+}
+
+
+/*Uso de barra lateral*/
+#lateral{
+
+position: fixed;
+width: 200px;
+height: 100%;
+background:black;
+left: -200px;
+transition: all 500ms linear;
+}
+
+#lateral.active{
+	left: 0;
+}
+
+
+#lateral ul li {
+	color: rgba(230,230,230.9);
+	text-align: center;
+	padding: 15px 10px;
+	list-style: none;
+	border-bottom: 1px solid rgba(100,100,100.3);
+     font-family: comic sans ms;
+   color: white;
+}
+ ul li a:hover{
+	background:indianred;
+	border-radius: 12%;
+		color:white;
+	box-shadow: 0px 10px 20px rgba(255,255,255,1);
+}
+
+.logo{
+	border-radius: 50%;
+	display: block;
+	margin:0 auto;
+}
+
+#lateral .toggle-btn{
+	position: absolute;
+	left: 230px;
+    top: 20px;
+    cursor: pointer;
+
+
+}
+.un{
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+}
+#lateral .toggle-btn span{
+display: block;
+width: 40px;
+text-align: center;
+font-size: 30px;
+border: 1px solid #000;
+background-color: #c71585;
+
+
+}
+a{
+	text-decoration: none;
+	color: navy;
+}
+.even{
+	text-align: center;
+	font-family: algerian;
+	font-size: 30px;
+	color:red;
+}
+.dis{
+	width: 190px;
+	height: 180px;
+	border-radius: 15%;
+}
+
+.arri{
+	float: right;
+	width: 130px;
+	height: 100px;
+}
+.music{
+	float: right;
+	border-radius: 1%;
+	color: red;
+	outline-color: red;
+	width:50%;
+	position: relative;
+	top:10px;
+	left:0px;
+	text-align:left;
+	float:left;
+	width: 80%;
+	margin: 10px;
+	opacity: 0.9;
+}
+.parr{
+	float: right;
+	margin-left: 100px;
+	color:	#b22222;
+	font-size: 20px;
+}
+
+.gal1{
+	float: left;
+
+}
+
+.ig{
+	float: left;
+	text-align: justify;
+}
+
+.texto1{
+	color: pink;
+	text-align: justify;
+}
+.tex{
+	text-align: justify;
+}
+
+.angulo{
+	width: 500px;
+	height: 300px;
+	border-radius: 20%;
+}
+.nota{
+	width: 607px;
+	height:300px;
+}
+.texto01{
+	text-align: left;
+	color:white;
+}
+.pi{
+	border-radius: 15%;
+}
+
+.noti{
+	border-radius: 15%;
+	width: 600px;
+	height: 550px;
+}
+
+.angu{
+	width: 500px;
+	height: 300px;
+	border-radius: 15%;
+}
+.angular{
+	width: 700px;
+	height: 400px;
+	border-radius: 10%;
+}
+.isoceles{
+	width: 100px
+	height:100px;
+	border-radius: 5%;
+}
+.cate{
+	width: 560px;
+	height: 400px;
+	border-radius: 5%;
+}
+.texto12{
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desarrollador Bryan Interian*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desarrollador Bryan Interian 
+.titulo{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family:AR CENA;
+	border: 9px solid purple;
+box-shadow: 0px 10px 20px rgba(255,255,255,1);
+}
+
+
+
+/*Uso de barra lateral
+#lateral{
+
+position: fixed;
+width: 180px;
+height: 100%;
+background:black;
+left: -200px;
+transition: all 500ms linear;
+border: 9px solid purple;
+box-shadow: 0px 10px 20px rgba(255,255,255,1);
+}
+
+#lateral.active{
+	left: 0;
+}
+
+
+#lateral ul li {
+	color: rgba(230,230,23+0.9);
+	text-align: center; /**Uso de la barra lateral texto 
+	padding: 15px 10px;
+	list-style: none;
+	border-bottom: 1px solid rgba(100,100,100.3);
+     font-family: comic sans ms;
+   color: navy;
+
+}
+ ul li a:hover{
+	background:indianred;
+	border-radius: 50%;
+		color:white;
+	box-shadow: 0px 10px 20px rgba(255,255,255,1);
+}
+
+.logo{
+	border-radius: 50%;
+	display: block;
+	margin:0 auto;
+}
+
+#lateral .toggle-btn{
+	position: absolute;
+	left: 230px;
+    top: 20px;
+    cursor: pointer;
+
+
+}
+.un{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+#lateral .toggle-btn span{
+display: block;
+width: 40px;
+text-align: center;
+font-size: 30px;
+border: 1px solid #000;
+background-color: #c71585;
+
+
+}
+a{
+	text-decoration: none;
+	color: navy;
+}
+
+.tex{
+	color: orange;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desarrollador Bryan Interian */
